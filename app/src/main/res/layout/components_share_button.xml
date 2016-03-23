@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.jumpintorivet.rivet.components.ShareButton xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageButton android:id="@+id/components_share_button_twitter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/standard_margin"
+        android:scaleType="fitCenter"
+        android:background="?attr/selectableItemBackground"
+        android:src="@drawable/twitter" />
+
+    <ImageButton android:id="@+id/components_share_button_facebook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/standard_margin"
+        android:scaleType="fitCenter"
+        android:background="?attr/selectableItemBackground"
+        android:src="@drawable/facebook" />
+
+    <ImageButton android:id="@+id/components_share_button_sms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="fitCenter"
+        android:background="?attr/selectableItemBackground"
+        android:src="@drawable/sms" />
+
+</com.jumpintorivet.rivet.components.ShareButton>

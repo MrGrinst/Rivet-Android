@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.jumpintorivet.rivet.components.ConversationViewingVoting xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:background="@drawable/conversation_viewing_voting_tab"
+    android:gravity="center_horizontal"
+    android:orientation="horizontal">
+
+    <IconButton xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/components_conversation_viewing_voting_down_vote"
+        android:layout_width="@dimen/conversation_viewing_voting_vote_button_width"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:background="?android:attr/selectableItemBackground"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="{fa-chevron-down}"
+        android:textColor="@color/rivet_gray"
+        android:textSize="@dimen/small_button_text_size" />
+
+    <TextView
+        android:id="@+id/components_conversation_viewing_voting_score"
+        android:layout_width="@dimen/conversation_viewing_voting_score_width"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:gravity="center_horizontal|center_vertical"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/rivet_off_black" />
+
+    <IconButton xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/components_conversation_viewing_voting_up_vote"
+        android:layout_width="@dimen/conversation_viewing_voting_vote_button_width"
+        android:layout_height="wrap_content"
+        android:background="?android:attr/selectableItemBackground"
+        android:text="{fa-chevron-up}"
+        android:textColor="@color/rivet_gray"
+        android:textSize="@dimen/small_button_text_size" />
+</com.jumpintorivet.rivet.components.ConversationViewingVoting>

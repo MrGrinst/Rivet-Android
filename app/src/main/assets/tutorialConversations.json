@@ -1,0 +1,93 @@
+[
+  {
+    "conversation_id": 1,
+    "score": 7,
+    "titles": [
+      {
+        "text": "Biomedical engineering! What about yours?"
+      },
+      {
+        "text": "Sweet. Good talk."
+      }
+    ],
+    "message_count": "12"
+  },
+  {
+    "conversation_id": 2,
+    "score": 23,
+    "titles": [
+      {
+        "text": "Rivet is a hub for interesting conversations around you"
+      },
+      {
+        "text": "You can also start your own conversations with other users"
+      }
+    ],
+    "message_count": "4"
+  },
+  {
+    "conversation_id": 3,
+    "score": 9,
+    "titles": [
+      {
+        "text": "Ring ding ding ding ding dingeringading"
+      },
+      {
+        "text": "haughty haughty haughty ho"
+      }
+    ],
+    "message_count": "50"
+  },
+  {
+    "conversation_id": 4,
+    "score": 18,
+    "titles": [
+      {
+        "text": "I like blue."
+      },
+      {
+        "text": "i met a nice orange and, well, it's all history now"
+      }
+    ],
+    "message_count": "27"
+  },
+  {
+    "conversation_id": 5,
+    "score": 41,
+    "titles": [
+      {
+        "text": "They just waved?"
+      },
+      {
+        "text": "you sound a little salty"
+      }
+    ],
+    "message_count": "18"
+  },
+  {
+    "conversation_id": 6,
+    "score": 39,
+    "titles": [
+      {
+        "text": "awesome"
+      },
+      {
+        "text": "fantastic"
+      }
+    ],
+    "message_count": "62"
+  },
+  {
+    "conversation_id": 7,
+    "score": 20,
+    "titles": [
+      {
+        "text": "nope. probably not. I graduated just last semester"
+      },
+      {
+        "text": "What're you still doing here at Tech? And nope.. just a second year."
+      }
+    ],
+    "message_count": "54"
+  }
+]

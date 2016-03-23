@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.jumpintorivet.rivet.components.conversation_view.ParentConversationListRow xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/components_conversation_list_view_conversation_parent_conversation_list_row_now_viewing_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginLeft="@dimen/four_standard_margin"
+        android:layout_marginRight="@dimen/four_standard_margin"
+        android:textColor="@color/rivet_dark_gray"
+        android:layout_marginTop="@dimen/half_standard_margin"
+        android:layout_marginBottom="@dimen/half_standard_margin"
+        android:textSize="@dimen/explanatory_text_size" />
+
+    <TextView
+        android:id="@+id/components_conversation_list_view_conversation_parent_conversation_list_row_first_parent_introduction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginBottom="@dimen/standard_margin"
+        android:layout_marginLeft="@dimen/four_standard_margin"
+        android:layout_marginRight="@dimen/four_standard_margin"
+        android:textColor="@color/rivet_off_black"
+        android:textSize="@dimen/explanatory_text_size" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@+id/components_conversation_list_view_conversation_parent_conversation_list_row_first_parent_box"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/parent_conversation_rounded_box"
+        android:layout_marginLeft="@dimen/double_standard_margin"
+        android:layout_marginRight="@dimen/double_standard_margin"
+        android:layout_marginBottom="@dimen/standard_margin"
+        android:padding="@dimen/standard_margin">
+
+        <TextView
+            android:id="@+id/components_conversation_list_view_conversation_parent_conversation_list_row_first_parent_headline"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical"
+            android:textColor="@color/rivet_light_blue"
+            android:textSize="@dimen/medium_explanatory_text_size" />
+
+        <IconTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="{fa-chevron-down}"
+            android:textColor="@color/rivet_light_gray"
+            android:textSize="@dimen/small_button_text_size" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/components_conversation_list_view_conversation_parent_conversation_list_row_second_parent_introduction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginBottom="@dimen/standard_margin"
+        android:layout_marginLeft="@dimen/four_standard_margin"
+        android:layout_marginRight="@dimen/four_standard_margin"
+        android:textColor="@color/rivet_off_black"
+        android:textSize="@dimen/explanatory_text_size" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@+id/components_conversation_list_view_conversation_parent_conversation_list_row_second_parent_box"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/parent_conversation_rounded_box"
+        android:layout_marginLeft="@dimen/double_standard_margin"
+        android:layout_marginRight="@dimen/double_standard_margin"
+        android:layout_marginBottom="@dimen/standard_margin"
+        android:padding="@dimen/standard_margin">
+
+        <TextView
+            android:id="@+id/components_conversation_list_view_conversation_parent_conversation_list_row_second_parent_headline"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical"
+            android:textColor="@color/rivet_light_blue"
+            android:textSize="@dimen/medium_explanatory_text_size" />
+
+        <IconTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="{fa-chevron-down}"
+            android:textColor="@color/rivet_light_gray"
+            android:textSize="@dimen/small_button_text_size" />
+    </LinearLayout>
+</com.jumpintorivet.rivet.components.conversation_view.ParentConversationListRow>

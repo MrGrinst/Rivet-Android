@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.jumpintorivet.rivet.activities.bar_on_bottom.conversation_list.EmptyFeaturedListCell xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/bar_on_bottom_list_featured_conversation_empty_list_fragment_cell_card_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/featured_card_view_rect">
+
+        <TextView
+            android:id="@+id/bar_on_bottom_list_featured_conversation_empty_list_fragment_cell_card_view_text"
+            android:layout_width="match_parent"
+            android:textSize="@dimen/explanatory_text_size"
+            android:textColor="@color/rivet_off_black"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center_horizontal"
+            android:text="@string/no_featured_conversations_around_you"
+            android:layout_marginLeft="@dimen/double_standard_margin"
+            android:layout_marginRight="@dimen/double_standard_margin"/>
+    </RelativeLayout>
+</com.jumpintorivet.rivet.activities.bar_on_bottom.conversation_list.EmptyFeaturedListCell>

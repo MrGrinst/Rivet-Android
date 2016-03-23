@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.jumpintorivet.rivet.activities.bar_on_bottom.conversation_list.ConversationListRow xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="vertical">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/bar_on_bottom_conversation_list_row_wrapper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/bar_on_bottom_conversation_list_row_headline"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/bar_on_bottom_conversation_list_row_tab"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="@dimen/double_standard_margin"
+                android:ellipsize="marquee"
+                android:gravity="center"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:paddingBottom="2dp"
+                android:paddingTop="2dp"
+                android:singleLine="true"
+                android:textColor="@color/rivet_light_blue"
+                android:textSize="@dimen/user_content_text_size"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:id="@+id/bar_on_bottom_conversation_list_row_tab"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/double_standard_margin"
+                android:layout_marginRight="@dimen/double_standard_margin"
+                android:background="@drawable/conversation_list_row_rounded_tab"
+                android:baselineAligned="false"
+                android:orientation="horizontal"
+                android:paddingBottom="@dimen/standard_margin"
+                android:paddingTop="@dimen/standard_margin">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/double_standard_margin"
+                    android:layout_marginRight="@dimen/double_standard_margin"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/bar_on_bottom_conversation_list_row_description_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:gravity="top|center_horizontal"
+                        android:maxLines="3"
+                        android:textColor="@color/rivet_off_black"
+                        android:textSize="@dimen/user_content_text_size" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/bar_on_bottom_conversation_list_row_extra_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_below="@id/bar_on_bottom_conversation_list_row_tab"
+                android:layout_marginLeft="@dimen/double_standard_margin"
+                android:layout_marginRight="@dimen/double_standard_margin"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal"
+                android:paddingBottom="2dp"
+                android:paddingTop="2dp">
+
+                <LinearLayout
+                    android:id="@+id/bar_on_bottom_conversation_list_row_non_featured_extra_info"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                    <com.jumpintorivet.rivet.components.base.TimeAgoTextView
+                        android:id="@+id/bar_on_bottom_conversation_list_row_timestamp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/standard_margin"
+                        android:textColor="@color/rivet_off_black"
+                        android:textSize="@dimen/explanatory_text_size" />
+
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/bar_on_bottom_conversation_list_row_number_of_messages"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/rivet_off_black"
+                    android:layout_marginRight="8dp"
+                    android:textSize="@dimen/explanatory_text_size" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</com.jumpintorivet.rivet.activities.bar_on_bottom.conversation_list.ConversationListRow>

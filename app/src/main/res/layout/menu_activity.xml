@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/rivet_light_blue"
+        android:minHeight="0dp"
+        app:contentInsetStart="0dp">
+
+        <IconButton xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/menu_activity_toolbar_exit_button"
+            android:layout_width="@dimen/omni_bar_button_width"
+            android:layout_height="fill_parent"
+            android:background="?android:attr/selectableItemBackground"
+            android:paddingTop="2dp"
+            android:text="{fa-times}"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/default_button_text_size" />
+
+        <TextView
+            style="@style/ToolbarTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Menu" />
+    </android.support.v7.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/rivet_off_white">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginBottom="@dimen/double_standard_margin"
+                    android:layout_marginLeft="@dimen/double_standard_margin"
+                    android:layout_marginTop="@dimen/double_standard_margin"
+                    android:text="@string/jump_in"
+                    android:textColor="@color/rivet_dark_blue"
+                    android:textSize="@dimen/small_explanatory_text_size" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/menu_activity_jump_into_rivet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/double_standard_margin"
+                    android:text="@string/jump_into_rivet"
+                    android:textColor="@color/rivet_off_black"
+                    android:textSize="@dimen/explanatory_text_size" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/rivet_light_gray" />
+
+            <LinearLayout
+                android:id="@+id/menu_activity_share_with_friends"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/double_standard_margin"
+                    android:text="@string/share_with_friends"
+                    android:textColor="@color/rivet_off_black"
+                    android:textSize="@dimen/explanatory_text_size" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/rivet_light_gray" />
+
+            <LinearLayout
+                android:id="@+id/menu_activity_rate_on_the_play_store"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/double_standard_margin"
+                    android:text="@string/rate_on_the_play_store"
+                    android:textColor="@color/rivet_off_black"
+                    android:textSize="@dimen/explanatory_text_size" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/rivet_light_gray" />
+
+            <LinearLayout
+                android:id="@+id/menu_activity_contact_us_support"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/double_standard_margin"
+                    android:text="@string/contact_us_support"
+                    android:textColor="@color/rivet_off_black"
+                    android:textSize="@dimen/explanatory_text_size" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/rivet_off_white">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginBottom="@dimen/double_standard_margin"
+                    android:layout_marginLeft="@dimen/double_standard_margin"
+                    android:layout_marginTop="@dimen/double_standard_margin"
+                    android:text="@string/social_media"
+                    android:textColor="@color/rivet_dark_blue"
+                    android:textSize="@dimen/small_explanatory_text_size" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/menu_activity_like_on_facebook"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/double_standard_margin"
+                    android:text="@string/like_on_facebook"
+                    android:textColor="@color/rivet_off_black"
+                    android:textSize="@dimen/explanatory_text_size" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/rivet_light_gray" />
+
+            <LinearLayout
+                android:id="@+id/menu_activity_follow_on_twitter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/double_standard_margin"
+                    android:text="@string/follow_on_twitter"
+                    android:textColor="@color/rivet_off_black"
+                    android:textSize="@dimen/explanatory_text_size" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/rivet_light_gray" />
+
+            <LinearLayout
+                android:id="@+id/menu_activity_follow_on_instagram"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/double_standard_margin"
+                    android:text="@string/follow_on_instagram"
+                    android:textColor="@color/rivet_off_black"
+                    android:textSize="@dimen/explanatory_text_size" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/rivet_off_white">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginBottom="@dimen/double_standard_margin"
+                    android:layout_marginLeft="@dimen/double_standard_margin"
+                    android:layout_marginTop="@dimen/double_standard_margin"
+                    android:text="@string/legal"
+                    android:textColor="@color/rivet_dark_blue"
+                    android:textSize="@dimen/small_explanatory_text_size" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/menu_activity_privacy_policy_row"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/double_standard_margin"
+                    android:text="@string/privacy_policy"
+                    android:textColor="@color/rivet_off_black"
+                    android:textSize="@dimen/explanatory_text_size" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/rivet_light_gray" />
+
+            <LinearLayout
+                android:id="@+id/menu_activity_terms_and_conditions"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/double_standard_margin"
+                    android:text="@string/terms_and_conditions"
+                    android:textColor="@color/rivet_off_black"
+                    android:textSize="@dimen/explanatory_text_size" />
+            </LinearLayout>
+
+            <View
+                android:id="@+id/menu_activity_reset_tutorial_row_divider"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/rivet_light_gray" />
+
+            <LinearLayout
+                android:id="@+id/menu_activity_reset_tutorial_row"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/double_standard_margin"
+                    android:text="@string/reset_tutorial"
+                    android:textColor="@color/rivet_off_black"
+                    android:textSize="@dimen/explanatory_text_size" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

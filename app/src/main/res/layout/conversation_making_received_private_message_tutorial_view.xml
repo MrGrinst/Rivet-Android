@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/rivet_dark_transparent"
+    android:clickable="true">
+
+    <com.jumpintorivet.rivet.components.base.PathMaskableImageView
+        android:id="@+id/conversation_making_received_private_message_tutorial_background_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@color/rivet_dark_transparent" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/double_standard_margin"
+            android:background="@drawable/white_round_rect"
+            android:gravity="center_horizontal"
+            android:padding="@dimen/standard_margin"
+            android:text="@string/received_private_message_tutorial"
+            android:textColor="@color/rivet_off_black"
+            android:textSize="@dimen/explanatory_text_size" />
+    </RelativeLayout>
+</FrameLayout>

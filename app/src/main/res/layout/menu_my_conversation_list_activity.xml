@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/rivet_light_blue"
+        android:minHeight="0dp"
+        app:contentInsetStart="0dp">
+
+        <IconButton xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/menu_my_conversations_back_button"
+            android:layout_width="@dimen/omni_bar_button_width"
+            android:layout_height="fill_parent"
+            android:background="?android:attr/selectableItemBackground"
+            android:paddingTop="2dp"
+            android:text="{fa-chevron-left}"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/default_button_text_size" />
+
+        <TextView
+            style="@style/ToolbarTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/my_conversations" />
+    </android.support.v7.widget.Toolbar>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ListView
+                android:id="@+id/menu_my_conversations_list_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scrollbars="none" />
+
+            <TextView
+                android:id="@+id/menu_my_conversations_empty_list_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
+                android:padding="@dimen/double_standard_margin"
+                android:text="@string/you_have_not_been_in_any_conversations"
+                android:textColor="@color/rivet_off_black"
+                android:textSize="@dimen/explanatory_text_size"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+        <com.jumpintorivet.rivet.components.LoadingView
+            android:id="@+id/menu_my_conversations_loading_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </FrameLayout>
+</LinearLayout>

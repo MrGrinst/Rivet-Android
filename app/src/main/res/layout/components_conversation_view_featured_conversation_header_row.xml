@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.jumpintorivet.rivet.components.conversation_view.FeaturedConversationHeaderRow xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/components_conversation_view_featured_conversation_header_row_image"
+        android:layout_width="match_parent"
+        android:scaleType="centerCrop"
+        android:adjustViewBounds="true"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/components_conversation_view_featured_conversation_header_row_headline"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/medium_explanatory_text_size"
+        android:textColor="@color/rivet_light_blue"
+        android:paddingTop="2dp"
+        android:gravity="center_horizontal"
+        android:layout_marginLeft="@dimen/standard_margin"
+        android:layout_marginRight="@dimen/standard_margin"/>
+
+    <TextView
+        android:id="@+id/components_conversation_view_featured_conversation_header_row_description"
+        android:layout_width="match_parent"
+        android:textSize="@dimen/explanatory_text_size"
+        android:textColor="@color/rivet_off_black"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/double_standard_margin"
+        android:layout_marginRight="@dimen/double_standard_margin"/>
+
+    <include
+        android:id="@+id/components_conversation_view_featured_conversation_header_row_share"
+        layout="@layout/components_share_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/standard_margin"
+        android:layout_marginBottom="@dimen/standard_margin"
+        android:layout_gravity="center_horizontal" />
+</com.jumpintorivet.rivet.components.conversation_view.FeaturedConversationHeaderRow>

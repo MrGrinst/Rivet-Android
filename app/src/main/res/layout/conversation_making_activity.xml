@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/conversation_making_activity_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/rivet_dark_blue"
+        android:minHeight="0dp"
+        android:gravity="top"
+        app:contentInsetStart="0dp">
+
+        <TextView
+            android:id="@+id/conversation_making_activity_toolbar_title"
+            style="@style/ToolbarTitle"
+            android:ellipsize="end"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <IconButton xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/conversation_making_activity_back"
+            android:layout_width="@dimen/omni_bar_button_width"
+            android:layout_height="fill_parent"
+            android:background="?android:attr/selectableItemBackground"
+            android:layout_gravity="center_vertical"
+            android:paddingTop="2dp"
+            android:text="{fa-chevron-left}"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/default_button_text_size" />
+
+        <IconButton xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/conversation_making_activity_end_conversation_button"
+            android:layout_width="@dimen/omni_bar_button_width"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical|right"
+            android:background="?android:attr/selectableItemBackground"
+            android:visibility="gone"
+            android:paddingLeft="1dp"
+            android:text="{fa-times-circle-o}"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/default_button_text_size" />
+
+        <IconButton xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/conversation_making_activity_report_button"
+            android:layout_width="@dimen/omni_bar_button_width"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical|right"
+            android:background="?android:attr/selectableItemBackground"
+            android:visibility="gone"
+            android:paddingLeft="1dp"
+            android:text="{fa-flag-o}"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/default_button_text_size" />
+    </android.support.v7.widget.Toolbar>
+
+    <FrameLayout
+        android:id="@+id/conversation_making_activity_content_view"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <LinearLayout
+            android:id="@+id/conversation_making_activity_conversing_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1">
+
+                <ListView
+                    android:id="@+id/conversation_making_activity_conversing_view_list_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:divider="@null"
+                    android:dividerHeight="0dp"
+                    android:listSelector="@android:color/transparent" />
+
+                <com.jumpintorivet.rivet.activities.conversation_making.SlidPrivacyMaskTutorial
+                    android:id="@+id/conversation_making_activity_slid_privacy_mask_tutorial"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:visibility="gone" />
+
+                <com.jumpintorivet.rivet.activities.conversation_making.ReceivedPrivateMessageTutorial
+                    android:id="@+id/conversation_making_activity_received_private_message_tutorial"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:visibility="gone" />
+            </FrameLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/rivet_gray" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="@android:color/white"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"/>
+                <EditText
+                    android:id="@+id/conversation_making_activity_conversing_view_new_message_text"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="3dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_weight="1"
+                    android:hint="@string/Message"
+                    android:inputType="textLongMessage|textMultiLine|textCapSentences"
+                    android:lines="5"
+                    android:minLines="1"
+                    android:scrollHorizontally="false"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:scrollbars="none" />
+
+                <Button
+                    android:id="@+id/conversation_making_activity_conversing_view_send_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="@string/Send"
+                    android:textAllCaps="true"
+                    android:textSize="@dimen/explanatory_text_size"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/conversation_making_activity_pre_conversing_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/rivet_off_white"
+            android:orientation="vertical">
+
+            <include
+                android:id="@+id/conversation_making_activity_pre_conversing_view_start_new_conversation_frame"
+                layout="@layout/components_start_new_conversation_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true" />
+        </RelativeLayout>
+    </FrameLayout>
+</LinearLayout>

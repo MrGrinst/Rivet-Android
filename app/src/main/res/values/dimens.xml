@@ -1,0 +1,40 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="omni_bar_height">42dp</dimen>
+    <dimen name="omni_bar_button_width">55dp</dimen>
+    <dimen name="default_button_text_size">26dp</dimen>
+    <dimen name="small_button_text_size">16sp</dimen>
+    <dimen name="user_content_text_size">16sp</dimen>
+    <dimen name="explanatory_text_size">16sp</dimen>
+    <dimen name="large_explanatory_text_size">24sp</dimen>
+    <dimen name="reg_medium_explanatory_text_size">18sp</dimen>
+    <dimen name="medium_explanatory_text_size">20sp</dimen>
+    <dimen name="toolbar_title_text_size">12sp</dimen>
+    <dimen name="conversation_list_row_score_left_margin">20dp</dimen>
+    <dimen name="conversation_list_row_title_right_margin">20dp</dimen>
+    <dimen name="conversation_list_top_bar_height">42dp</dimen>
+    <dimen name="conversation_list_score_width">60dp</dimen>
+    <dimen name="half_standard_margin">4dp</dimen>
+    <dimen name="standard_margin">8dp</dimen>
+    <dimen name="double_standard_margin">16dp</dimen>
+    <dimen name="square_side_length">110dp</dimen>
+    <dimen name="start_conversation_icon_size">40sp</dimen>
+    <dimen name="conversation_prompt_max_width">200dp</dimen>
+    <dimen name="conversation_message_left_right_padding">12dp</dimen>
+    <dimen name="minimum_message_text_width">45dp</dimen>
+    <dimen name="message_bubble_radius">18dp</dimen>
+    <dimen name="hexagon_corner_radius">8dp</dimen>
+    <dimen name="conversation_title_message_left_right_padding">48dp</dimen>
+    <dimen name="title_button_radius">7dp</dimen>
+    <dimen name="score_activity_square_width">120dp</dimen>
+    <dimen name="four_standard_margin">32dp</dimen>
+    <dimen name="conversation_viewing_voting_score_width">60dp</dimen>
+    <dimen name="conversation_viewing_voting_vote_button_width">45dp</dimen>
+    <dimen name="splash_screen_spinner_top_margin">300dp</dimen>
+    <dimen name="small_explanatory_text_size">14sp</dimen>
+    <dimen name="conversation_list_score_size">19sp</dimen>
+    <dimen name="report_dialog_hexagon_width">90dp</dimen>
+    <dimen name="location_icon_width">44dp</dimen>
+</resources>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/rivet_light_blue"
+        android:minHeight="0dp"
+        app:contentInsetStart="0dp">
+
+        <IconButton xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/menu_terms_and_conditions_back_button"
+            android:layout_width="@dimen/omni_bar_button_width"
+            android:layout_height="fill_parent"
+            android:background="?android:attr/selectableItemBackground"
+            android:paddingTop="2dp"
+            android:text="{fa-chevron-left}"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/explanatory_text_size"></IconButton>
+
+        <TextView
+            style="@style/ToolbarTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/terms_and_conditions" />
+    </android.support.v7.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="@dimen/standard_margin"
+        android:layout_marginRight="@dimen/standard_margin"
+        android:layout_marginTop="@dimen/half_standard_margin"
+        android:layout_weight="1"
+        android:fillViewport="true"
+        android:scrollbars="vertical">
+
+        <TextView
+            android:id="@+id/menu_terms_and_conditions_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/rivet_off_black"
+            android:textSize="@dimen/explanatory_text_size" />
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/white_round_rect"
+    android:orientation="vertical"
+    android:padding="@dimen/double_standard_margin">
+
+    <IconTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="45sp"
+        android:text="{fa-exclamation-triangle}"
+        android:textColor="@color/rivet_orange"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/half_standard_margin"
+        android:layout_marginTop="@dimen/half_standard_margin"
+        android:text="@string/report_problem"
+        android:textColor="@color/rivet_orange"
+        android:textSize="@dimen/large_explanatory_text_size" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/standard_margin"
+        android:layout_marginTop="@dimen/half_standard_margin"
+        android:text="@string/tell_us_the_problem"
+        android:textColor="@color/rivet_off_black"
+        android:textSize="@dimen/medium_explanatory_text_size" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/rivet_light_gray" />
+
+    <LinearLayout
+        android:id="@+id/components_report_dialog_inappropriate_messages"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/standard_margin"
+        android:paddingTop="@dimen/standard_margin">
+
+        <IconTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/standard_margin"
+            android:text="{fa-thumbs-o-down}"
+            android:textColor="@color/rivet_orange"
+            android:textSize="@dimen/medium_explanatory_text_size" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/inappropriate_messages"
+            android:textColor="@color/rivet_off_black"
+            android:textSize="@dimen/medium_explanatory_text_size" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/rivet_light_gray" />
+
+    <LinearLayout
+        android:id="@+id/components_report_dialog_targets_someone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/standard_margin"
+        android:paddingTop="@dimen/standard_margin">
+
+        <IconTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/standard_margin"
+            android:text="{fa-user}"
+            android:textColor="@color/rivet_orange"
+            android:textSize="@dimen/medium_explanatory_text_size" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/targets_someone"
+            android:textColor="@color/rivet_off_black"
+            android:textSize="@dimen/medium_explanatory_text_size" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/rivet_light_gray" />
+
+    <LinearLayout
+        android:id="@+id/components_report_dialog_other"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/standard_margin"
+        android:paddingTop="@dimen/standard_margin">
+
+        <IconTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/standard_margin"
+            android:text="{fa-ellipsis-h}"
+            android:textColor="@color/rivet_orange"
+            android:textSize="@dimen/medium_explanatory_text_size" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Other"
+            android:textColor="@color/rivet_off_black"
+            android:textSize="@dimen/medium_explanatory_text_size" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/rivet_light_gray" />
+
+    <Button
+        android:id="@+id/components_report_dialog_cancel_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/half_standard_margin"
+        android:text="@string/Cancel" />
+</LinearLayout>

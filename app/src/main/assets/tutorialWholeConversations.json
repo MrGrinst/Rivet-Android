@@ -1,0 +1,26 @@
+{
+  "2": {
+    "prompt": "What is Rivet?",
+    "score": "23",
+    "messages": [
+      {
+        "text": "Rivet is a hub for interesting conversations around you",
+        "participant_number": "2",
+        "is_title_message": "true"
+      },
+      {
+        "text": "You can also start your own conversations with other users",
+        "participant_number": "1",
+        "is_title_message": "true"
+      },
+      {
+        "text": "And once you’re done chatting, that discussion is added to the hub",
+        "participant_number": "1"
+      },
+      {
+        "text": "Exactly!",
+        "participant_number": "2"
+      }
+    ]
+  }
+}

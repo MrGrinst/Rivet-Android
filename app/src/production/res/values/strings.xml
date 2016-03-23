@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Rivet</string>
+    <string name="base_endpoint">https://api.jumpintorivet.com/v2.0/</string>
+    <string name="mixpanel_token">redacted</string>
+    <string name="gcm_project_id">redacted</string>
+    <string name="ssl_cert_name">none</string>
+    <string name="pusher_auth_url">https://api.jumpintorivet.com/pusher</string>
+    <string name="pusher_api_key">redacted</string>
+</resources>

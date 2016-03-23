@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.jumpintorivet.rivet.components.conversation_view.FeaturedConversationFooterRow xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/components_conversation_view_featured_conversation_footer_row_share"
+        layout="@layout/components_share_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/standard_margin"
+        android:layout_marginBottom="@dimen/standard_margin"
+        android:layout_gravity="center_horizontal" />
+
+    <include
+        android:id="@+id/components_conversation_view_featured_conversation_footer_row_talk_about_this"
+        layout="@layout/components_start_new_conversation_view"
+        android:layout_width="@dimen/square_side_length"
+        android:layout_height="@dimen/square_side_length"
+        android:layout_margin="@dimen/standard_margin"
+        android:layout_gravity="center_horizontal" />
+</com.jumpintorivet.rivet.components.conversation_view.FeaturedConversationFooterRow>

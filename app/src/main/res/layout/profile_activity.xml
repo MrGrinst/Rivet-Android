@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/rivet_off_white"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/rivet_light_blue"
+        android:minHeight="0dp"
+        app:contentInsetStart="0dp">
+
+        <IconButton xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/profile_activity_toolbar_exit_button"
+            android:layout_width="@dimen/omni_bar_button_width"
+            android:layout_height="fill_parent"
+            android:background="?android:attr/selectableItemBackground"
+            android:paddingTop="2dp"
+            android:text="{fa-times}"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/default_button_text_size" />
+
+        <TextView
+            style="@style/ToolbarTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Profile" />
+    </android.support.v7.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/rivet_off_white"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/profile_activity_my_conversations_row"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                android:layout_marginTop="@dimen/double_standard_margin"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_margin="@dimen/double_standard_margin"
+                    android:text="@string/my_conversations"
+                    android:textColor="@color/rivet_off_black"
+                    android:textSize="@dimen/explanatory_text_size" />
+
+                <IconTextView
+                    android:id="@+id/components_conversation_view_featured_conversation_footer_row_more_conversations_chevron"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/double_standard_margin"
+                    android:layout_gravity="center_vertical"
+                    android:paddingTop="1dp"
+                    android:text="{fa-chevron-right}"
+                    android:textColor="@color/rivet_light_gray"
+                    android:textSize="@dimen/explanatory_text_size" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="16dp"
+                android:background="@color/rivet_off_white" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:id="@+id/profile_activity_conversation_stats"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/rivet_light_blue"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/double_standard_margin"
+                        android:text="@string/Stats"
+                        android:textColor="@android:color/white"
+                        android:textSize="@dimen/explanatory_text_size" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/profile_activity_started"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignRight="@+id/profile_activity_time_chatting"
+                    android:layout_below="@+id/profile_activity_conversation_stats"
+                    android:layout_marginTop="@dimen/double_standard_margin"
+                    android:text="@string/Conversations"
+                    android:textColor="@color/rivet_off_black"
+                    android:textSize="@dimen/explanatory_text_size" />
+
+                <TextView
+                    android:id="@+id/profile_activity_started_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/profile_activity_started"
+                    android:layout_marginLeft="@dimen/standard_margin"
+                    android:layout_toRightOf="@+id/profile_activity_started"
+                    android:textColor="@color/rivet_off_black"
+                    android:textSize="@dimen/explanatory_text_size" />
+
+                <TextView
+                    android:id="@+id/profile_activity_time_chatting"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignRight="@+id/profile_activity_average_messages"
+                    android:layout_below="@+id/profile_activity_started"
+                    android:layout_marginTop="@dimen/standard_margin"
+                    android:text="@string/time_chatting"
+                    android:textColor="@color/rivet_off_black"
+                    android:textSize="@dimen/explanatory_text_size" />
+
+                <TextView
+                    android:id="@+id/profile_activity_time_chatting_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/profile_activity_time_chatting"
+                    android:layout_marginLeft="@dimen/standard_margin"
+                    android:layout_toRightOf="@+id/profile_activity_time_chatting"
+                    android:textColor="@color/rivet_off_black"
+                    android:textSize="@dimen/explanatory_text_size" />
+
+                <TextView
+                    android:id="@+id/profile_activity_average_messages"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/profile_activity_time_chatting"
+                    android:layout_marginBottom="@dimen/double_standard_margin"
+                    android:layout_marginLeft="@dimen/double_standard_margin"
+                    android:layout_marginTop="@dimen/standard_margin"
+                    android:text="@string/average_messages"
+                    android:textColor="@color/rivet_off_black"
+                    android:textSize="@dimen/explanatory_text_size" />
+
+                <TextView
+                    android:id="@+id/profile_activity_average_messages_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/profile_activity_average_messages"
+                    android:layout_marginLeft="@dimen/standard_margin"
+                    android:layout_toRightOf="@+id/profile_activity_average_messages"
+                    android:textColor="@color/rivet_off_black"
+                    android:textSize="@dimen/explanatory_text_size" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

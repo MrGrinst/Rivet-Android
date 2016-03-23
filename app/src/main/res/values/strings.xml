@@ -1,0 +1,263 @@
+<resources>
+    <string name="Hot">Hot</string>
+    <string name="New">New</string>
+    <string name="Prompt">Prompt</string>
+    <string name="closed_conversation">Closed Conversation</string>
+    <string name="you_ended_the_conversation">You ended the conversation</string>
+    <string name="your_partner_ended_the_conversation">The other user ended the conversation</string>
+    <string name="one_of_the_users_ended_the_conversation">One of the users ended\nthe conversation</string>
+    <string name="now_talking_text_viewer">Conversation between two users</string>
+    <string name="now_talking_text_participant">You are talking with someone near you</string>
+    <string name="now_viewing_text_participant">Conversation you were in</string>
+    <string name="start_conversation">Start a conversation\n</string>
+    <string name="stop_searching">Searching\nNearby</string>
+    <string name="Send">Send</string>
+    <string name="Message">Message</string>
+    <string name="view">view</string>
+    <string name="Gotcha">Gotcha</string>
+    <string name="Title">Title</string>
+    <string name="confirm_end_conversation_title">End Conversation?</string>
+    <string name="confirm_end_conversation_body">Are you sure you want to end this conversation?</string>
+    <string name="Yes">Yes</string>
+    <string name="No">No</string>
+    <string name="Menu">Menu</string>
+    <string name="my_conversations">My Conversations</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="terms_and_conditions_body"><![CDATA[
+    Please read these Terms and Conditions ("Terms", "Terms and Conditions") carefully before using Rivet operated by Rivet LLC.
+<br />
+<br />Your access to and use of Rivet is conditioned on your acceptance of and compliance with these Terms. These Terms apply to all visitors, users and others who access or use Rivet.
+<br />
+<br />By accessing or using Rivet you agree to be bound by these Terms. If you disagree with any part of the terms then you may not use Rivet.
+<br />
+<br /><u>Termination</u>
+<br />We may terminate or suspend access to Rivet immediately, without prior notice or liability, for any reason whatsoever, including without limitation if you breach the Terms.
+<br />
+<br />All provisions of the Terms which by their nature should survive termination shall survive termination, including, without limitation, ownership provisions, warranty disclaimers, indemnity and limitations of liability.
+<br />
+<br /><u>Links To Other Web Sites</u>
+<br />Rivet may contain links to third-­party web sites or services that are not owned or controlled by Rivet LLC.
+<br />
+<br />Rivet LLC has no control over, and assumes no responsibility for, the content, privacy policies, or practices of any third party web sites or services. You further acknowledge and agree that Rivet LLC shall not be responsible or liable, directly or indirectly, for any damage or loss caused or alleged to be caused by or in connection with use of or reliance on any such content, goods or services available on or through any such web sites or services.
+<br />
+<br />We strongly advise you to read the terms and conditions and privacy policies of any third-­party web sites or services that you visit.
+<br />
+<br /><u>Governing Law</u>
+<br />These Terms shall be governed and construed in accordance with the laws of The United States of America without regard to its conflict of law provisions.
+<br />
+<br />Our failure to enforce any right or provision of these Terms will not be considered a waiver of those rights. If any provision of these Terms is held to be invalid or unenforceable by a court, the remaining provisions of these Terms will remain in effect. These Terms constitute the entire agreement between us regarding Rivet, and supersede and replace any prior agreements we might have between us regarding Rivet.
+<br />
+<br /><u>Changes</u>
+<br />We reserve the right, at our sole discretion, to modify or replace these Terms at any time. If a revision is material we will try to provide at least 30 days notice prior to any new terms taking effect. What constitutes a material change will be determined at our sole discretion.
+<br />
+<br />By continuing to access or use our Service after those revisions become effective, you agree to be bound by the revised terms. If you do not agree to the new terms, please stop using Rivet.
+<br />
+<br /><u>Unauthorized Activities</u>
+<br />When using the Rivet, you agree not to:
+<br />
+<br />&nbsp;&nbsp;&nbsp;&nbsp;* Harass, abuse, threaten, defame, or otherwise violate the legal rights (such as rights of privacy and publicity) of others.
+<br />&nbsp;&nbsp;&nbsp;&nbsp;* Use racially, religiously, or sexuality offensive language.
+<br />&nbsp;&nbsp;&nbsp;&nbsp;* Promote or encourage illegal activities
+<br />&nbsp;&nbsp;&nbsp;&nbsp;* Post anything that may exploit minors.
+<br />&nbsp;&nbsp;&nbsp;&nbsp;* Post any copyrighted or trademarked materials without the express consent of the owner.
+<br />&nbsp;&nbsp;&nbsp;&nbsp;* Solicit any unauthorized advertising materials, including, but not limited to: spam, junk mail, false services, pyramid schemes, or any other generally accepted unauthorized advertising materials.
+<br />&nbsp;&nbsp;&nbsp;&nbsp;* Use any automated means to access or use Rivet. This includes, but is not limited to: robots, scrapers, and spiders.
+<br />&nbsp;&nbsp;&nbsp;&nbsp;* Maliciously and/or deliberately impose an unreasonable load on our infrastructure.
+<br />&nbsp;&nbsp;&nbsp;&nbsp;* Post any language that is obscene, threatening, or derogatory to any individual or group.
+<br />
+<br />This list of prohibitions merely provides some examples and is not intended to be nor taken to be exhaustive or exclusive.  We reserve the right to terminate access to your account and/or refuse, delete or remove any content which you submit; with or without cause and with or without notice, for any reason. We may also terminate access to Rivet if any action is found to be disruptive to Rivet or any of its users.  We reserve the right to report any illegal or unlawful behaviors or actions to applicable law enforcement.
+<br />
+<br /><u>Copyright Policy</u>
+<br />
+<br />Rivet LLC respects the intellectual property of other individuals, organizations, and companies. If you believe that any of your copyrighted material exists in any way in Rivet, please let us know by emailing us at the email address listed at the bottom of the Terms with the subject line “Copyright Infringement Inquiry”. Providing us with as much evidence and information as possible will help resolve the issue in the timeliest manner. Such evidence and information may include:
+<br />&nbsp;&nbsp;&nbsp;&nbsp;* What content you believe to be in violation of your copyright and how it is being used
+<br />&nbsp;&nbsp;&nbsp;&nbsp;* A statement encouraging/advocating your ownership of the copyrighted material
+<br />&nbsp;&nbsp;&nbsp;&nbsp;* Reasonably sufficient proof of your identity as the owner of the material
+<br />&nbsp;&nbsp;&nbsp;&nbsp;* A way for us to contact you quickly (email, phone, address)
+<br />
+<br />While we will try our best to respond to any copyright infringement inquiries as fast as possible, please understand that a respectable amount of time might be needed in order for our staff to evaluate the inquiry and respond accordingly. We will try to respond within three (3) business days, however, certain circumstances may change this response time, in which case we are held liable for the delay.
+<br />
+<br /><u>Contact Us</u>
+<br />If you have any questions about these Terms, please contact us.
+<br />
+<br />http://jumpintorivet.com
+<br />
+<br />info@jumpintorivet.com
+<br />
+<br />Last updated: 8/3/15]]></string>
+    <string name="reset_tutorial">Reset Tutorial</string>
+    <string name="you_have_not_been_in_any_conversations">You haven’t been in any conversations yet</string>
+    <string name="loading_conversations">Loading Conversations</string>
+    <string name="your_prompt">Your prompt:</string>
+    <string name="conversations">Conversations:</string>
+    <string name="prompt_colon">Prompt:</string>
+    <string name="time_ago_minute">%d min</string>
+    <string name="time_ago_seconds">%d sec</string>
+    <string name="time_ago_hour">%d hr</string>
+    <string name="time_ago_day">%d day</string>
+    <string name="time_ago_days">%d days</string>
+    <string name="time_ago_weeks">%d wks</string>
+    <string name="time_ago_week">%d wk</string>
+    <string name="time_ago_months">%d mo</string>
+    <string name="time_ago_years">%d yrs</string>
+    <string name="time_ago_year">%d yr</string>
+    <string name="time_ago_hours">%d hrs</string>
+    <string name="number_of_messages">%d messages</string>
+    <string name="number_of_message">%d message</string>
+    <string name="Submit">Submit</string>
+    <string name="start_your_own_conversation">Start your own\nconversation!</string>
+    <string name="tap_the_button">Tap the\nbutton</string>
+    <string name="tap_conversation_text">Tap to view a conversation\nbetween two people near you</string>
+    <string name="slid_privacy_mask_left_text">Messages here are private</string>
+    <string name="received_private_message_tutorial">You received a private message.\nSlide the privacy mask tab.</string>
+    <string name="report_problem">Report Problem</string>
+    <string name="tell_us_the_problem">Tell us what the problem is.</string>
+    <string name="inappropriate_messages">Inappropriate Messages</string>
+    <string name="targets_someone">Targets Someone</string>
+    <string name="Other">Other</string>
+    <string name="Cancel">Cancel</string>
+    <string name="Success">Success!</string>
+    <string name="report_successfully_filed">Thank you! Your report has been successfully filed. One of our admins will take a look at it soon.</string>
+    <string name="no_conversations_around_you">No conversations have happened near you yet. Sorry!</string>
+    <string name="no_featured_conversations_around_you">There aren’t any featured conversations near you.</string>
+    <string name="no_featured_conversations_global">There aren’t any featured conversations to show.</string>
+    <string name="Loading">Loading</string>
+    <string name="share_with_friends_text">Looking for a new social app? Jump into Rivet! http://share.jumpintorivet.com</string>
+    <string name="error_updating_location">Error Finding Your Location</string>
+    <string name="error_getting_location_message">Make sure airplane mode isn’t on and you haven’t turned your location services off. Restart the app when you’ve fixed the problem.</string>
+    <string name="waiting_for_review">Waiting for review</string>
+    <string name="share_with_friends">Share with Friends</string>
+    <string name="contact_us_support">Contact Us/Support</string>
+    <string name="jump_into_rivet">Jump Into Rivet</string>
+    <string name="terms_and_conditions">Terms and Conditions</string>
+    <string name="privacy_policy_body"><![CDATA[
+This privacy policy has been compiled to better serve those who are concerned with how their ‘Personally identifiable information’ (PII) is being used online. PII, as used in US privacy law and information security, is information that can be used on its own or with other information to identify, contact, or locate a single person, or to identify an individual in context. Please read our privacy policy carefully to get a clear understanding of how we collect, use, protect or otherwise handle your Personally Identifiable Information in accordance with our website.
+<br />
+<br /><u>What personal information do we collect from Rivet users?</u>
+<br />We don’t proactively collect personally identifiable information from users. We do, however, proactively track user activity and software bug reports. Additionally, when using Rivet, users have the ability to submit their own content. We reserve the right to collect this content. This information is kept anonymous and used primarily to improve the user experience. Users should never submit personally identifiable information in any public channel on the app. However, in those instances, we still reserve the right to collect that information.
+<br />
+<br /><u>When do we collect information?</u>
+<br />User activity, software bug reports, and user-submitted information are all collected regularly. 
+<br />
+<br /><u>How do we use your information?</u>
+<br />We may use the information we collect from you in the following ways:
+<br />&nbsp;&nbsp;&nbsp;&nbsp;* To improve our app and give you a better user experience.
+<br />&nbsp;&nbsp;&nbsp;&nbsp;* To allow us to better help you with any issues you may have using Rivet.
+<br />
+<br /><u>How do we protect user information?</u>
+<br />Your personal information is contained behind secured networks and is only accessible by a limited number of persons who have special access rights to such systems, and are required to keep the information confidential. In addition, all information you supply is encrypted via Secure Socket Layer (SSL) technology.
+<br />
+<br /><u>Third Party Disclosure</u>
+<br />We do not sell, trade, or otherwise transfer to outside parties your personally identifiable information (excluding content which you have publicly submitted in channels visible to other Rivet users in your area) unless we provide you with advance notice. This does not include third parties who assist us in operating our app, conducting our business, or servicing you, so long as those parties agree to keep this information confidential. We may also release your information when we believe release is appropriate to comply with the law, enforce our policies, or protect ours or others’ rights, property, or safety.
+<br />
+<br />However, non-personally identifiable user information may be provided to other parties for marketing, advertising, or other uses.
+<br />
+<br /><u>Third party links</u>
+<br />Occasionally, at our discretion, we may include or offer third party products or services on our app. These third parties have separate and independent privacy policies. We therefore have no responsibility or liability for the content and activities of these linked services. Nonetheless, we seek to protect the integrity of our site and welcome any feedback about these services.
+<br />
+<br /><u>Does our app allow third party behavioral tracking?</u>
+<br />Yes, we allow third party behavioral tracking. As mentioned above, we use this information to improve user experience.
+<br />
+<br /><u>COPPA (Children Online Privacy Protection Act)</u>
+<br />We do not specifically market to children under 13. If we discover any user under the age of 13 has submitted information to us, we will remove that information from our system.
+<br />
+<br /><u>Fair Information Practices</u>
+<br />In order to be in line with Fair Information Practices we will notify users via in app posting within 7 business days
+<br />
+<br />We also agree to the individual redress principle, which requires that individuals have a right to pursue legally enforceable rights against data collectors and processors who fail to adhere to the law. This principle requires not only that individuals have enforceable rights against data users, but also that individuals have recourse to courts or a government agency to investigate and/or prosecute non-compliance by data processors.
+<br />
+<br /><u>In-app Messages</u>
+<br />Due to the anonymous nature of Rivet, your messages will not be connected to your personal identity in any way. However, all messages sent/received in all public channels will be viewable by our staff in order to remove offensive or threatening content. We also reserve the right to remove content for any other reason. However, messages sent in private modes will not be directly viewable by our staff unless another user files a report suggesting threatening or abusive behavior. We then reserve the right to share this information along with your device ID / IP address with appropriate law enforcement officials.
+<br />
+<br /><u>Contacting Us</u>
+<br />If there are any questions regarding this privacy policy you may contact us using the information below.
+<br />
+<br />http://jumpintorivet.com
+<br />
+<br />info@jumpintorivet.com
+<br />
+<br />Last updated: 8/3/15
+    ]]></string>
+    <string name="ground_rules">Ground Rules</string>
+    <string name="jump_into_rivet_top_text">Check out interesting conversations about almost anything. They’re all happening around you. Feel like starting your own discussion? Talk to another user to share your opinion, spread an idea, or just chat.\n\nUse Rivet how you want. Just remember:</string>
+    <string name="jump_into_rivet_rules">1. Don’t be a jerk\n\n2. Share jokes, thoughts, stories, questions, etc.\n\n3. DON’T share people’s private information</string>
+    <string name="jump_in_explore_your_community">Jump In!\nExplore your community.</string>
+    <string name="special_thanks">Special Thanks</string>
+    <string name="a_special_thanks">A Special Thanks!</string>
+    <string name="special_thanks_list"><![CDATA[
+John O’Brien
+\nAdam Kaller
+\nThe Veloso Family
+\nGRB
+\nThe Grinstead Family
+\nLance Hasson
+\nJeff Nelson
+\nMike Drapeau
+\nJohn Rigney
+\nMichelle Hutcherson
+\n@brewtheway
+\nThank you, O Captain, my Captain- her most royal and creative - Gita Khote
+\nRebecca H
+\nMama Opal
+\nMelissa Fleming
+\nRAHUL
+\nEric Carboni
+\nChocolate Bear
+\nDavid Bugliari
+\nBryan M. Wilson
+\nLorene Garnier
+\nJanel Bersabal
+\nParthoo (4F For Life)
+\nCory Wacht (Ginger Bear)
+\nElaine Johnson
+\nCandy Danforth
+\nRem Tolentino
+\nWayne Lu
+\nJoshua King
+\nLuke Alexander
+\nBcouch
+\nAlvin Mui]]></string>
+    <string name="connection_error">Error Reaching Server</string>
+    <string name="connection_error_message">Check your internet connection. If the problem continues, our servers may be temporarily down for maintenance.</string>
+    <string name="no_internet_exception">No Internet Connection</string>
+    <string name="no_internet_exception_body">Please find an internet connection</string>
+    <string name="loading_conversation">Loading Conversation</string>
+    <string name="Score">Score</string>
+    <string name="like_on_facebook">Like on Facebook</string>
+    <string name="follow_on_twitter">Follow on Twitter</string>
+    <string name="follow_on_instagram">Follow on Instagram</string>
+    <string name="rate_on_the_play_store">Rate on the Play Store</string>
+    <string name="social_media">Social Media</string>
+    <string name="jump_in">Jump In</string>
+    <string name="conversation_stats">Conversation Stats</string>
+    <string name="time_chatting">Time Chatting:</string>
+    <string name="average_messages">Avg. Messages:</string>
+    <string name="conversations_">Conversations:</string>
+    <string name="share_conversation">Share Conversation {fa-share-alt}</string>
+    <string name="featured_conversation">Featured Conversation</string>
+    <string name="conversation_with_a_verified_user">Conversation with a verified user</string>
+    <string name="legal">Legal</string>
+    <string name="Featured">Featured</string>
+    <string name="Nearby">Nearby</string>
+    <string name="active_conversation_chat_button_text">Active</string>
+    <string name="talk_about_this">Talk About This</string>
+    <string name="talk_about_this_split_lines">Talk\nAbout This</string>
+    <string name="no_conversations_about_that_yet">There aren’t any conversations about this yet.</string>
+    <string name="no_conversations_about_this_yet">No conversations about this yet</string>
+    <string name="one_conversation_about_this">1 conversation about this</string>
+    <string name="x_conversations_about_this">%d conversations about this</string>
+    <string name="last_message_sent_by_me">Last message you sent:\n</string>
+    <string name="have_you_seen_the_featured_conversation">Topic</string>
+    <string name="talk_about_the_conversation_you_recently_read">Talk about the featured conversation you recently read</string>
+    <string name="the_other_user_recently_read_this_featured_conversation">The other user recently read this featured conversation</string>
+    <string name="you_both_recently_read">You both recently read this featured conversation</string>
+    <string name="since_they_recently_talked_about_this">The other user recently discussed the above topic. Here\'s another one</string>
+    <string name="since_you_recently_talked_about_this">Because you recently discussed the above topic, here\'s another one</string>
+    <string name="featured_conversation_topic">Topic</string>
+    <string name="another_topic">Another topic</string>
+    <string name="Profile">Profile</string>
+    <string name="Stats">Stats</string>
+    <string name="Conversations">Conversations:</string>
+    <string name="your_conversation">Your Conversation</string>
+    <string name="searching_for_someone_to_talk_to">Searching for someone\nto talk to</string>
+</resources>
